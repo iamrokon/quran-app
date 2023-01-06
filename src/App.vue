@@ -5,7 +5,7 @@
         <div class="flex -mx-4 items-center mb-6">
           <div class="flex-1 px-4">
             <select @click="getSpecificSura" class="quran-input" name="" id="">
-              <option value="">Select Sura</option>
+              <!-- <option value="">Select Sura</option> -->
               <option v-for="sura in suras" :value="sura.number">{{ sura.name }} {{ sura.englishName }}</option>
             </select>
           </div>
